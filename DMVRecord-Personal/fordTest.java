@@ -17,7 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 class fordTest {
     private enum combustionEngines {
         // Ford 4-cylinder
-        ECOBOOST_15("EcoBoost 1.5L I4", 181, 4, 1.5),
+        ECOBOOST_15("EcoBoost 1.5L I4", 181, 4, 21.5),
         ECOBOOST_20("EcoBoost 2.0L I4", 245, 4, 2.0),
         DURATEC_23("Duratec 2.3L I4", 160, 4, 2.3),
 
