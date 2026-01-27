@@ -56,7 +56,7 @@ class CourseRecordTest {
         CourseRecord course = new CourseRecord("Intro to CS", DepartmentCodeEnum.CSE, 101, 3, "John", "Doe");
         String expected = "Course Information:\n" +
                 "\tCourse Name: Intro to CS\n" +
-                "\tDepartment sCode: CSE\n" +
+                "\tDepartment Code: CSE\n" +
                 "\tCourse Number: 101\n" +
                 "\tCredits Hours: 3\n" +
                 "\tInstructor: John Doe\n";
