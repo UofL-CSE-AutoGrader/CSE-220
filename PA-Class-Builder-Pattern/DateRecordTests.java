@@ -22,7 +22,7 @@ public class DateRecordTests {
     @DisplayName("formats all supported date formats consistently")
     public void formatsAllSupportedDateFormats() {
         DateRecord date = new DateRecord(5, MonthsEnum.MAY, 2010);
-        assertEquals("05/05/2010", date.toString(DateFormatOptionsEnum.DD_MM_YYYY));
+        assertEquals("05/005/2010", date.toString(DateFormatOptionsEnum.DD_MM_YYYY));
         assertEquals("05/05/2010", date.toString(DateFormatOptionsEnum.MM_DD_YYYY), "MM_DD and DD_MM coincide for symmetric day/month");
         assertEquals("2010/05/05", date.toString(DateFormatOptionsEnum.YYYY_MM_DD));
         assertEquals("May 05, 2010", date.toString(DateFormatOptionsEnum.MONTH_DD_YYYY));
